@@ -8,7 +8,7 @@ seafileltd/notification-server:12.0-latest
 seafileltd/seafile-mc:11.0-latest
 --platform=linux/arm64 seafileltd/seafile-mc:11.0-latest
 seafileltd/sdoc-server:1.0-latest
-docker.seafile.top/seafileltd/onlyoffice-documentserver:8.1
+seafileltd/onlyoffice-documentserver:8.1
 lucaslorentz/caddy-docker-proxy:2.9-alpine
 mariadb:10.11
 memcached:1.6.29
