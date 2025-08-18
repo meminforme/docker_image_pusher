@@ -3,10 +3,9 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 python:alpine3.19
-seafileltd/seafile-mc:12.0-latest
+seafileltd/seafile-mc:11.0-latest
 seafileltd/notification-server:12.0-latest
 seafileltd/seafile-mc:11.0-latest
---platform=linux/arm64 seafileltd/seafile-mc:11.0-latest
 seafileltd/sdoc-server:1.0-latest
 seafileltd/onlyoffice-documentserver:8.1
 lucaslorentz/caddy-docker-proxy:2.9-alpine
@@ -17,4 +16,11 @@ docker.elastic.co/elasticsearch/elasticsearch:8.9.1
 docker.elastic.co/logstash/logstash:8.9.1
 docker.elastic.co/kibana/kibana:8.9.1
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 mariadb:10.11
+--platform=linux/arm64 memcached:1.6.29
+--platform=linux/arm64 lucaslorentz/caddy-docker-proxy:2.9-alpine
+--platform=linux/arm64 onlyoffice/documentserver:8.1.0.1
+--platform=linux/arm64 seafileltd/notification-server:12.0-latest
+--platform=linux/arm64 seafileltd/seafile-mc:12.0-latest
+--platform=linux/arm64 seafileltd/seafile-mc:11.0-latest
+--platform=linux/arm64 seafileltd/sdoc-server:1.0-latest
