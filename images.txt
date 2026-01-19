@@ -7,6 +7,13 @@ seafileltd/seafile-mc:11.0-latest
 seafileltd/notification-server:12.0-latest
 seafileltd/seafile-mc:12.0-latest
 seafileltd/seafile-pro-mc:12.0-latest
+seafileltd/seafile-pro-mc:13.0-latest
+seafileltd/seasearch:1.0-latest
+seafileltd/thumbnail-server:13.0-latest
+clamav/clamav:latest
+seafileltd/sdoc-server:2.0-latest
+seafileltd/notification-server:13.0-latest
+seafileltd/seafile-ai:13.0-latest
 seafileltd/sdoc-server:1.0-latest
 lucaslorentz/caddy-docker-proxy:2.9-alpine
 onlyoffice/documentserver:8.1.0.1
